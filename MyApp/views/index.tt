@@ -1,0 +1,50 @@
+  
+<!-- 
+OPPO 103-D DVD Player Test Page
+-->
+
+<div data-role="page" data-theme="b">
+  <div data-role="header" data-position="fixed"></div>
+  <div role="main" class="ui-content">
+      <div id="content">
+
+	<form data-transition="pop" method="post">
+	  <div class="ui-grid-a">
+	    <div class="ui-block-a"><input data-icon="home" data-iconpos="left" data-mini="true" class="cmd" id="TTL" value="Top Menu" type="button"></div>
+            <div class="ui-block-b"><input data-icon="bars" data-iconpos="right" data-mini="true" class="cmd" id="MNU" value="Pop-up" type="button"></div>
+	  </div>
+	  <div class="ui-grid-b">
+	    <div class="ui-block-a"></div>
+	    <div class="ui-block-b"><input data-icon="carat-u" data-iconpos="top" data-mini="true" class="cmd" id="NUP" value="Up" type="button"></div>
+	    <div class="ui-block-c"></div>
+	  </div>
+	  <div class="ui-grid-b">
+	    <div class="ui-block-a"><input data-icon="carat-l" data-iconpos="top" data-mini="true" class="cmd" id="NLT" value="Left" type="button"></div>
+	    <div class="ui-block-b"><input data-icon="action" data-iconpos="top" data-mini="true" class="cmd" id="SEL" value="Enter" type="button"></div>
+	    <div class="ui-block-c"><input data-icon="carat-r" data-iconpos="top" data-mini="true" class="cmd" id="NRT" value="Right" type="button"></div>
+	  </div>
+	  <div class="ui-grid-b">
+	    <div class="ui-block-a"></div>
+	    <div class="ui-block-b"><input data-icon="carat-d" data-iconpos="bottom" data-mini="true" class="cmd" id="NDN" value="Down" type="button"></div>
+	    <div class="ui-block-c"></div>	  
+	  </div>
+	  <div class="ui-grid-a">
+            <div class="ui-block-a"><input data-icon="star" data-iconpos="left" data-mini="true" class="cmd" id="OPT" value="Option" type="button"></div>
+ 	    <div class="ui-block-b"><input data-icon="arrow-l" data-iconpos="right" data-mini="true" class="cmd" id="RET" value="Return"type="button"></div>
+	  </div>
+	  <div class="ui-grid-b">
+	    <div class="ui-block-a"><input data-icon="stop" data-iconpos="top" data-mini="true" class="cmd" id="STP" value="Stop" type="button"></div>
+	    <div class="ui-block-b"><input data-icon="play" data-iconpos="top" data-mini="true" class="cmd" id="PLA" value="Play" type="button"></div>
+	    <div class="ui-block-c"><input data-icon="pause" data-iconpos="top" data-mini="true" class="cmd" id="PAU" value="Pause" type="button"></div>
+	  </div>
+	  <div class="ui-grid-c">
+	    <div class="ui-block-a"><input data-icon="fast-backward" data-iconpos="top" data-mini="true" class="cmd" value="Prev" id="PRE" type="button"></div>
+	    <div class="ui-block-b"><input data-icon="backward" data-iconpos="top" data-mini="true" class="cmd" value="Rev" id="REV" type="button"></div>
+	    <div class="ui-block-c"><input data-icon="forward" data-iconpos="top" data-mini="true" class="cmd" Value="Fwd" id="FWD" type="button"></div>
+	    <div class="ui-block-d"><input data-icon="fast-forward" data-iconpos="top" data-mini="true" class="cmd" value="Next" id="NXT" type="button"></div>
+	  </div>
+	</form>
+      </div>
+  </div>
+  <div data-role="footer" data-position="fixed"></div>
+</div>
