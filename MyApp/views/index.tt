@@ -3,11 +3,14 @@
 OPPO 103-D DVD Player Test Page
 -->
 
-<div data-role="page" data-theme="b">
-  <div data-role="header" data-position="fixed"></div>
+<div data-role="page" data-theme="c">
+  <div data-role="header" data-position="fixed">
+  <h1>OPPO 103-D DVD</h1>
+  	<a href="#panel-menu" data-icon="bars" class="ui-btn-left"></a>
+  </div>
   <div role="main" class="ui-content">
       <div id="content">
-
+      
 	<form data-transition="pop" method="post">
 	  <div class="ui-grid-a">
 	    <div class="ui-block-a"><input data-icon="home" data-iconpos="left" data-mini="true" class="cmd" id="TTL" value="Top Menu" type="button"></div>
@@ -47,4 +50,9 @@ OPPO 103-D DVD Player Test Page
       </div>
   </div>
   <div data-role="footer" data-position="fixed"></div>
+  <div data-role="panel" id="panel-menu" data-position="left" data-theme="c">
+    <ul data-role="listview" data-icon="false">
+      <li><a href="#">OPPO 103-D DVD</a></li>
+    </ul>
+  </div>
 </div>
