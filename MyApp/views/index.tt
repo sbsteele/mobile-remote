@@ -20,6 +20,8 @@ Remote Control Multi-page Test Page
 	    <div class="ui-block-b"><input data-mini="true" class="cmd" id="BLU" style="opacity: 1; background:blue;" type="button"></div>
 	    <div class="ui-block-c"><input data-mini="true" class="cmd" id="GRN" style="opacity: 1; background:green;" type="button"></div>
 	    <div class="ui-block-d"><input data-mini="true" class="cmd" id="WHT" style="opacity: 1; background:white;" type="button"></div>
+	    <div class="ui-block-a"><input data-mini="true" class="cmd" id="OFF" style="opacity: .5; background:white;" type="button" value="OFF" ></div>
+	    <div class="ui-block-b"><input data-mini="true" class="cmd" id="FDE" style="opacity: .5; background:white;" type="button" value="FADE" ></div>
 	  </div>
     </div>
   </div>
@@ -34,8 +36,8 @@ Remote Control Multi-page Test Page
     <div id="content">    
 	  <form method="post">
 	  <div class="ui-grid-a">
-	    <div class="ui-block-a"><input data-icon="home" data-iconpos="left" data-mini="true" class="cmd" id="TTL" value="Top Menu" type="button"></div>
-        <div class="ui-block-b"><input data-icon="bars" data-iconpos="right" data-mini="true" class="cmd" id="MNU" value="Pop-up" type="button"></div>
+	    <div class="ui-block-a"><input data-icon="home" data-iconpos="left" data-mini="true" class="cmd" id="PON" value="Power-on" type="button"></div>
+        <div class="ui-block-b"><input data-icon="bars" data-iconpos="right" data-mini="true" class="cmd" id="POF" value="Power-off" type="button"></div>
 	  </div>
 	  <div class="ui-grid-b">
 	    <div class="ui-block-a"></div>
